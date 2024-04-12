@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Calculator</title>
+    <link rel="stylesheet" href="styletable.css">
+</head>
+
+<body>
+
+    <table id="itemTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Item 1</td>
+                <td><input type="number" class="quantity" value="0"></td>
+                <td><input type="number" class="price" value="0"></td>
+                <td class="total">0</td>
+            </tr>
+            <tr>
+                <td>Item 2</td>
+                <td><input type="number" class="quantity" value="0"></td>
+                <td><input type="number" class="price" value="0"></td>
+                <td class="total">0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Total: <span id="grandTotal">0</span></p>
+    <script src="tablescript.js"></script>
+
+</body>
+
+</html>
